@@ -1,0 +1,132 @@
+body{
+    font-family: sans-serif;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100vh;
+}
+
+#calculator{
+    background-color: black;
+    padding: 100px 10px 20px 10px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.line1{
+    display: flex;
+    gap: 1rem;
+    justify-content: space-evenly;
+}
+
+.line2{
+    display: flex;
+    gap: 1rem;
+    justify-content: space-evenly;
+}
+
+.line3{
+    display: flex;
+    gap: 1rem;
+    justify-content: space-evenly;
+}
+
+.line4{
+    display: flex;
+    gap: 1rem;
+    justify-content: space-evenly;
+}
+
+.line5{
+    display: flex;
+    gap: 1rem;
+    justify-content: space-between;
+}
+
+#result{
+    text-align: end;
+    font-size: 3rem;
+    color: white;
+}
+
+.btn-gray{
+    padding: 20px;
+    font-size: 150%;
+    font-weight: 400;
+    color: black;
+    border-radius: 50%;
+    border: 1px solid rgba(0, 0, 0, 0);
+    background-color: rgb(151, 147, 147);
+
+    width: 70px;
+    height: 70px;
+
+    cursor: pointer;
+}
+
+.btn-orange{
+    padding: 20px;
+    font-size: 150%;
+    font-weight: 400;
+    color: white;
+    border-radius: 50%;
+    border: 1px solid rgba(0, 0, 0, 0);
+    background-color: orange;
+
+    width: 70px;
+    height: 70px;
+
+    cursor: pointer;
+
+    transition: .5s;
+} .btn-orange-focus{
+    padding: 20px;
+    font-size: 150%;
+    font-weight: 400;
+    color: orange;
+    border-radius: 50%;
+    border: 1px solid rgba(0, 0, 0, 0);
+    background-color: white;
+
+    width: 70px;
+    height: 70px;
+
+    cursor: pointer;
+
+    transition: .5s;
+}
+
+.btn-black{
+    padding: 20px;
+    font-size: 150%;
+    font-weight: 400;
+    color: white;
+    border-radius: 50%;
+    border: 1px solid rgba(0, 0, 0, 0);
+    background-color: rgb(37, 37, 37);
+
+    width: 70px;
+    height: 70px;
+
+    cursor: pointer;
+}
+
+.btn-black-ex{
+    padding: 20px 80px;
+    font-size: 150%;
+    font-weight: 400;
+    text-indent: -5rem;
+    color: white;
+    border-radius: 37%;
+    border: 1px solid rgba(0, 0, 0, 0);
+    background-color: rgb(37, 37, 37);
+
+    width: 70px;
+    height: 70px;
+
+    cursor: pointer;
+}

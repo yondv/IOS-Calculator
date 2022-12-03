@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Calculator IOS</title>
+</head>
+<body>
+    <div id="calculator">
+        <div id="result">0</div>
+        <div class="line1">
+            <button class="btn-gray">AC</button>
+            <button class="btn-gray">+/-</button>
+            <button class="btn-gray">%</button>
+            <button onclick="doDivision()" id="division" class="btn-orange">÷</button>
+        </div>
+        <div class="line2">
+            <button class="btn-black">7</button>
+            <button class="btn-black">8</button>
+            <button class="btn-black">9</button>
+            <button onclick="doTimes()" id="times" class="btn-orange">x</button>
+        </div>
+        <div class="line3">
+            <button class="btn-black">4</button>
+            <button class="btn-black">5</button>
+            <button class="btn-black">6</button>
+            <button onclick="doMinus()" id="minus" class="btn-orange">-</button>
+        </div>
+        <div class="line4">
+            <button class="btn-black">1</button>
+            <button class="btn-black">2</button>
+            <button class="btn-black">3</button>
+            <button onclick="doPlus()" id="plus" class="btn-orange">+</button>
+        </div>
+        <div class="line5">
+            <button class="btn-black-ex">0</button>
+            <button class="btn-black">,</button>
+            <button onclick="doEquals()" id="equal" class="btn-orange">=</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
